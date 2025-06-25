@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 80%; margin: 0 auto; border-collapse: collapse;">
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <h1>Página pessoal</h1>
+                <img src="fernanda.png" alt="imagem perfil" style="display: block; margin: 0 auto;">
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="2" style="padding: 20px;">
+                <fieldset style="margin-bottom: 20px;">
+                    <h2>Informações Pessoais</h2>
+                    <p>Nome: Fernanda Caroline Fernandes de Oliveira</p>
+                    <p>Idade: 16 anos</p>
+                    <p>Data de nascimento: </p>
+                    <input type="date" name="data_nascimento" id="data_nascimento">
+                    <p>Profissão: Aluna</p>
+                    <p>Gênero: Feminino</p>
+                    <div style="margin-top: 10px;">
+                        <input type="radio" name="genero" value="feminino">Feminino
+                        <input type="radio" name="genero" value="masculino">Masculino
+                        <input type="radio" name="genero" value="outro">Outro
+                    </div>
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding: 20px;">
+                <fieldset style="margin-bottom: 20px;">
+                    <h2>Informações de Contato</h2>
+                    <p>E-mail: fernandaoliveira08@gmail.com</p>
+                    <p>Telefone: (46) 99999-9999</p>
+                    <p>Instagram: @fernandaoliveira08</p>
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding: 20px;">
+                <fieldset style="margin-bottom: 20px;">
+                    <h2>Objetivo</h2>
+                    <p>Procuro ter mais aprendizado em áreas de tecnologia, adquirindo experiência para conseguir uma boa carreira no mercado de trabalho.</p>
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding: 20px;">
+                <fieldset style="margin-bottom: 20px;">
+                    <h2>Experiência profissional</h2>
+                    <ul>
+                        <li>Atendimento ao cliente</li>
+                    </ul>
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding: 20px;">
+                <fieldset style="margin-bottom: 20px;">
+                    <h2>Minhas metas</h2>
+                    <ul>
+                        <li>Ter mais conhecimento em áreas de tecnologia</li>
+                        <li>Ter mais experiência no mercado de trabalho</li>
+                        <li>Aprender coisas novas</li>
+                    </ul>
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding: 20px;">
+                <fieldset style="margin-bottom: 20px;">
+                    <h2>Formação Acadêmica</h2>
+                    <table style="width: 100%; border-collapse: collapse; margin: 10px 0;">
+                        <tr>
+                            <th style="width: 25%;">Ensino</th>
+                            <td style="width: 25%;">Ensino Médio Incompleto</td>
+                            <th style="width: 25%;">Instituição</th>
+                            <td style="width: 25%;">Colégio Estadual Cívico Militar Vinicius de Moraes</td>
+                        </tr>
+                        <tr>
+                            <th style="width: 25%;">Curso</th>
+                            <td style="width: 25%;">Aprender e crescer</td>
+                            <th style="width: 25%;">Carga horária</th>
+                            <td style="width: 25%;">560hrs</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">Ano</th>
+                            <td colspan="2" style="text-align: center;">2025</td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding: 20px;">
+                <fieldset style="margin-bottom: 20px;">
+                    <h2>Idiomas</h2>
+                    <select style="width: 100%;">
+                        <option>Português</option>
+                        <option>Inglês</option>
+                        <option>Espanhol</option>
+                    </select>
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding: 20px;">
+                <fieldset>
+                    <h2>Habilidades</h2>
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                        <input type="checkbox" name="habilidade" value="html">HTML
+                        <input type="checkbox" name="habilidade" value="css">CSS
+                        <input type="checkbox" name="habilidade" value="javascript">JavaScript
+                        <input type="checkbox" name="habilidade" value="python">Python
+                        <input type="checkbox" name="habilidade" value="java">Java
+                        <input type="checkbox" name="habilidade" value="c">C
+                    </div>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding: 20px;">
+                <fieldset>
+                    <h2>Feedback do recrutador</h2>
+                    <p>nota
+                        <input type="number" name="nota" id="nota">
+                    </p>
+                    <p>comentario
+                        <textarea name="comentario" id="comentario" cols="10" rows="1"></textarea>
+                    </p>
+                    <p>
+                        interesse do recrutador
+                        <select name="interesse" id="interesse">
+                            <option>selecione</option>
+                            <option>alto</option>
+                            <option>médio</option>
+                            <option>baixo</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                    </p>
+                    <p>
+                        <input type="reset" value="Limpar">
+                    </p>
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
